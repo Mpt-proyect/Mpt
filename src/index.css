@@ -1,0 +1,36 @@
+body {
+  background-color:#AED6F1;
+  margin: 0;
+  padding: 0;
+
+}
+
+a{
+  background-color: #D6DBDF;
+  margin: auto;
+  width: auto;
+  height: auto;
+  color: black;
+  justify-content: center;
+  border: 2.5px solid transparent;
+  background: linear-gradient(#5DADE2, #5DADE2)padding-box,
+      repeating-linear-gradient(-45deg, 
+        black 0, black 100%,
+        transparent 0, transparent 50%
+      )
+    
+    
+}
+img{ 
+  position: center;
+  top: 20;
+  opacity: 0.8;
+  height: auto;
+  /* padding: 3000; */
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

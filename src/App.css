@@ -1,0 +1,48 @@
+
+/* colores: 
+    #cce8f5 parte de arriba
+
+*/
+.caja { 
+  border: 3px solid #5878ca;
+  color: black; 
+  background:#cce8f5 } 
+
+.App {
+  text-align: center;
+}
+
+nav{
+  background:#cce8f5;
+  padding: 25px;
+  text-align: center;
+
+} 
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+input {
+  height: 50px;
+  font-size: 2em;
+  width: 200px;
+}
+.App-header {
+   background-color: #cce8f5;
+  margin: 0; 
+  padding: 0;
+
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
