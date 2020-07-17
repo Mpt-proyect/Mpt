@@ -13,12 +13,12 @@ class Login extends Component{
             <div>
                 {
                     user ? 
-                    <p> Bienvenido, {user.displayName}  </p>
-                    : <p>Por favor, ingrese su correo</p>
+                    <h2> Bienvenido, {user.displayName}  </h2>
+                    : <h1>Por favor, ingrese su correo</h1>
                 }       
                 {
                     user 
-                    ? <button onClick={signOut}> Desconectar</button>
+                    ? <button onClick={signOut}> Cerrar sesión </button>
                     : <button onClick={signInWithGoogle}> Conectar con Google</button>
                 }
             </div>
