@@ -12,7 +12,8 @@ function App() {
     <div className="App">
      
       <Navigation></Navigation>
-      <Login></Login>
+      <Login></Login>      <a href="http://localhost:3000" target="_blank">Soy tutor/a</a>
+
       <Contenido></Contenido>
       <Inicio_mpt></Inicio_mpt>
       <Items></Items>

@@ -21,10 +21,12 @@ class Login extends Component{
                 }       
                 {
                     user 
-                    ? <button onClick={signOut}> Cerrar sesión </button>
-                    : <button onClick={signInWithGoogle}> Conectar con Google</button> 
-                }<br></br>
-                
+                    ? <button onClick={signOut}> &nbsp; Cerrar sesión &nbsp; </button>
+                    : <button onClick={signInWithGoogle}>&nbsp; Conectar con Google &nbsp;</button> 
+                    
+                }<br></br> <br></br>
+                      <a href="http://localhost:3000" target="_blank">&nbsp;&nbsp;<strong>Soy tutor/a&nbsp;&nbsp; </strong></a> 
+<br></br> <br></br>
                 <img src={intro_niño} width="50%"  />
                 
             </div><br></br>
