@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
+import Imagenes_2 from '../imgs/Matemáticas/item_2/Imagenes_2';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -24,6 +25,7 @@ export default function Item_1() {
       <Paper>
       Tema 2: Operatoria Básica
      </Paper>
+     <Imagenes_2></Imagenes_2>
      </h1>
     </div>
   );
