@@ -22,7 +22,7 @@ class Login extends Component{
                 {
                     user 
                     ? <button onClick={signOut}> &nbsp; Cerrar sesión &nbsp; </button>
-                    : <button onClick={signInWithGoogle}>&nbsp; Conectar con Google &nbsp;</button> 
+                    : <button onClick={signInWithGoogle}>&nbsp; <strong>Conectar con Google</strong> &nbsp;</button> 
                     
                 }<br></br> <br></br>
                       <a href="http://localhost:3000" target="_blank">&nbsp;&nbsp;<strong>Soy tutor/a&nbsp;&nbsp; </strong></a> 

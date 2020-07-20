@@ -88,7 +88,7 @@ export default function NavTabs() {
    </Grid>      </TabPanel>
       <TabPanel value={value} index={1}>
       Muchas gracias por utilizar MPT, nos ayudaría mucho si pudieses responder esta encuesta <br></br>
-      <a href="https://forms.gle/9g7TY4tCJFa1pX396" target="_blank">Link encuesta de satisfacción</a> 
+      <a href="https://forms.gle/9g7TY4tCJFa1pX396" target="_blank">&nbsp; Link encuesta de satisfacción&nbsp;</a> 
 
 </TabPanel>
       <TabPanel value={value} index={2}>

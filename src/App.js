@@ -6,14 +6,14 @@ import Inicio_mpt from './components/Inicio_mpt';
 import Contenido from './components/Contenido';
 import Items from './components/Items';
 import Login from './Login/Login';
-
+import Ejercicios_1 from './Ejercicios/Ejercicios_1';
 function App() {
   return (
     <div className="App">
      
       <Navigation></Navigation>
-      <Login></Login>      <a href="http://localhost:3000" target="_blank">Soy tutor/a</a>
-
+      <Login></Login> 
+      <Ejercicios_1></Ejercicios_1> 
       <Contenido></Contenido>
       <Inicio_mpt></Inicio_mpt>
       <Items></Items>
