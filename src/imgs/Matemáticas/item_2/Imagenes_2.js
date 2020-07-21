@@ -4,7 +4,8 @@ import estrella from '../../estrella.png';
 import division_2 from './division_2.png';
 import unidades_tiempo from './unidades_tiempo.png';
 import composicion_descomp from './composicion_descomp.png';
-class imagenes_1 extends Component{
+
+class Imagenes_2 extends Component{
     render(){
         return (
            <h1>
@@ -34,4 +35,4 @@ class imagenes_1 extends Component{
 }
     
 
-export default imagenes_1;
+export default Imagenes_2;

@@ -1,3 +1,9 @@
+alertas 
+ <Alert severity="error">This is an error alert — check it out!</Alert>
+      <Alert severity="info">This is an info alert — check it out!</Alert>
+      <Alert severity="success">This is a success alert — check it out!</Alert>     
+         
+         
            boton
 
             <button onclick="newBiblioteca()">Continuar</button> 

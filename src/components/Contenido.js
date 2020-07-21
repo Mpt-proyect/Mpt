@@ -54,7 +54,7 @@ export default function Contenido() {
       </Paper>
       <Paper> <img src={calculadora} width="20%" height="60px" /> 
     <u> <h2> Tema 3 </h2> </u>
-    <h5> - Área y Perimetro de figuras <br></br>
+    <h5> - Área y Perímetro de figuras <br></br>
          - Calcular promedio <br></br>
          - Porcentajes <br></br>
          - Ecuaciones de primer grado

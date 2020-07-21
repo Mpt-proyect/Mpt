@@ -13,7 +13,6 @@ function App() {
      
       <Navigation></Navigation>
       <Login></Login> 
-      <Ejercicios_1></Ejercicios_1> 
       <Contenido></Contenido>
       <Inicio_mpt></Inicio_mpt>
       <Items></Items>

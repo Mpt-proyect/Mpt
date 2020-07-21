@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-
+import Imagenes_3 from '../imgs/Matemáticas/item_3/Imagenes_3';
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
@@ -24,7 +24,10 @@ export default function Item_1() {
       <Paper>  
       Tema 3: Cálculos Básicos
      </Paper> 
+     <Imagenes_3/>
+
      </h1>
+
     </div>
   );
 }
