@@ -6,18 +6,31 @@
 .caja_enunciado{
   border: 3px solid #1b7d9b;
   color: black; 
-  background:#cce8f5 
+  background:#cce8f5;
+  width: 97%;
+  left:1.5%;
+  position: relative;
+
 }
 .caja_ejercicio{
   border: 3px solid #3c994b;
   color: black; 
-  background:#cce8f5 
+  background:#cce8f5; 
+  width: 97%;
+  left:1.5%;
+  position: relative;
+
+
 }
 
 .caja { 
   border: 3px solid #5878ca;
   color: black; 
-  background:#cce8f5 } 
+  background:#cce8f5; 
+  position: relative;
+  width: 97%;
+  left:1.5%;
+} 
 
 .App {
   text-align: center;

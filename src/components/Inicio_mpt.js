@@ -1,7 +1,7 @@
  import React, { Component } from 'react'
  import numeros_ejemplo from '../imgs/Logos_items/introduccion/numeros_ejemplo_1.png';
  import Item_1 from '../Pruebas/Item_1';
- class Inicio_mpt extends Component{
+ class Inicio_Mpt extends Component{
      render(){
         return (
             
@@ -46,4 +46,4 @@
          )
      }
  }
-export default Inicio_mpt;
+export default Inicio_Mpt;

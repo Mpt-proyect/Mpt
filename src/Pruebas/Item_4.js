@@ -2,6 +2,8 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Imagenes_3 from '../imgs/Matemáticas/item_3/Imagenes_3';
+import TextField from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button';
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
@@ -25,9 +27,9 @@ export default function Item_1() {
       Tema 3: Cálculos Básicos
      </Paper> 
      <Imagenes_3/>
-
      </h1>
 
     </div>
+    
   );
 }
