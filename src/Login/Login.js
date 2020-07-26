@@ -25,7 +25,7 @@ class Login extends Component{
                     : <button onClick={signInWithGoogle}>&nbsp; <strong>Conectar con Google</strong> &nbsp;</button> 
                     
                 }<br></br> <br></br>
-                      <a href="http://localhost:3000" target="_blank">&nbsp;&nbsp;<strong>Soy tutor/a&nbsp;&nbsp; </strong></a> 
+                      <a href="http://localhost:3001" target="_blank">&nbsp;&nbsp;<strong>Soy tutor/a&nbsp;&nbsp; </strong></a> 
 <br></br> <br></br>
                 <img src={intro_niño} width="50%"  />
                 
